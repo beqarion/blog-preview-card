@@ -27,8 +27,6 @@ Variables
   --ff-primary: "Figtree ExtraBold", sans-serif;
   --ff-secondary: "Figtree SemiBold", sans-serif;
   --transition: all 0.3s linear;
-  --max-width: 1170px;
-  --fixed-width: 620px;
 }
 /*
 =============== 
@@ -119,18 +117,18 @@ Card
 .category,
 .publish-date {
   display: inline-block;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 150%;
 }
 .title {
   font-family: var(--ff-primary);
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 150%;
   cursor: pointer;
 }
 .description {
   color: #7f7f7f;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 150%;
 }
 /* author */
@@ -145,7 +143,7 @@ Card
 }
 .author-name {
   font-family: var(--ff-primary);
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 150%;
 }
 
@@ -158,16 +156,16 @@ Card
   }
   .category,
   .publish-date {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .title {
     transition: var(--transition);
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .title:hover {
     color: var(--clr-yellow);
   }
   .description {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
