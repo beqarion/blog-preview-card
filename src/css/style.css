@@ -162,7 +162,7 @@ Card
   height: 32px;
 }
 .author-name {
-  font-family: var(--ff-primary);
+  font-family: var(--ff-figtree-extrabold);
   font-size: 0.875rem;
   line-height: 150%;
 }
