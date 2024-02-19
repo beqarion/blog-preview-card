@@ -1,4 +1,4 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - Blog preview card
 
 This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -24,19 +24,19 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 Users should be able to:
 
-- View the optimal layout for the interface depending on their device's screen size
+- Your challenge is to build out this blog preview card and get it looking as close to the design as possible.
 
-- See hover and focus states for all interactive elements on the page
+- Your users should be able to: See hover and focus states for all interactive elements on the page
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./assets/images/screenshot-desktop.png)
 
 ### Links
 
-- [Solution](https://github.com/beqarion/3-column-preview-card-component)
+- [Solution](https://github.com/beqarion/blog-preview-card)
 
-- [Live Site](https://beqarion.github.io/3-column-preview-card-component/)
+- [Live Site](https://beqarion.github.io/blog-preview-card/)
 
 ## My process
 
