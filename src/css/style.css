@@ -6,13 +6,30 @@ Fonts
 @font-face {
   font-family: "Figtree ExtraBold";
   src: url("../../assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
-  font-weight: 800; /* Adjust the weight accordingly */
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Figtree Bold";
+  src: url("assets/fonts/static/Figtree-Bold.ttf") format("truetype");
+  font-weight: bold;
 }
 
 @font-face {
   font-family: "Figtree SemiBold";
   src: url("../../assets/fonts/static/Figtree-SemiBold.ttf") format("truetype");
-  font-weight: 600; /* Adjust the weight accordingly */
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Figtree Medium";
+  src: url("assets/fonts/static/Figtree-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Figtree Regular";
+  src: url("assets/fonts/static/Figtree-Regular.ttf") format("truetype");
+  font-weight: normal;
 }
 /*
 ===============
@@ -24,8 +41,11 @@ Variables
   --clr-white: #fff;
   --clr-black: #111;
   --clr-yellow: #f4d04e;
-  --ff-primary: "Figtree ExtraBold", sans-serif;
-  --ff-secondary: "Figtree SemiBold", sans-serif;
+  --ff-figtree-regular: "Figtree Regular", sans-serif;
+  --ff-figtree-medium: "Figtree Medium", sans-serif;
+  --ff-figtree-semibold: "Figtree SemiBold", sans-serif;
+  --ff-figtree-bold: "Figtree Bold", sans-serif;
+  --ff-figtree-extrabold: "Figtree ExtraBold", sans-serif;
   --transition: all 0.3s linear;
 }
 /*
@@ -43,7 +63,6 @@ Global Styles
 /* global classes */
 body {
   color: var(--clr-black);
-  font-family: var(--ff-secondary);
 }
 
 /*
@@ -109,10 +128,10 @@ Card
   border-radius: 4px;
   padding: 4px 12px;
 
-  font-family: var(--ff-primary);
+  font-family: var(--ff-figtree-extrabold);
 }
 .publish-date {
-  font-family: var(--ff-secondary);
+  font-family: var(--ff-figtree-medium);
 }
 .category,
 .publish-date {
@@ -121,12 +140,13 @@ Card
   line-height: 150%;
 }
 .title {
-  font-family: var(--ff-primary);
+  font-family: var(--ff-figtree-extrabold);
   font-size: 1.25rem;
   line-height: 150%;
   cursor: pointer;
 }
 .description {
+  font-family: var(--ff-figtree-medium);
   color: #7f7f7f;
   font-size: 0.875rem;
   line-height: 150%;
@@ -166,6 +186,6 @@ Card
     color: var(--clr-yellow);
   }
   .description {
-    font-size: 0.99rem;
+    font-size: 1rem;
   }
 }
