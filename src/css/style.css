@@ -151,7 +151,7 @@ Card
 
 @media screen and (min-width: 500px) {
   .preview-card {
-    box-shadow: 16px 16px var(--clr-black), inset 0 0 0 1px var(--clr-black);
+    /* box-shadow: 16px 16px var(--clr-black), inset 0 0 0 1px var(--clr-black); */
   }
   .card-img:hover {
     transform: scale(1.07);
